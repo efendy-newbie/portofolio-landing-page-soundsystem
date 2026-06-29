@@ -1,6 +1,0 @@
-{
-  "name": "Rental Sound System",
-  "description": "Landing page modern dan responsif untuk jasa sewa sound system professional untuk berbagai jenis acara.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
