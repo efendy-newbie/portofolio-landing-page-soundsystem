@@ -2,16 +2,17 @@ import { useState } from 'react';
 import { Image, Layers, Sparkles, Sliders } from 'lucide-react';
 import { PortfolioItem } from '../types';
 
+const eventSoundSetup = 'https://images.unsplash.com/photo-1465847899084-d164df4dedc6?auto=format&fit=crop&q=80&w=800&h=600';
+const heroSoundSystem = 'https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&q=80&w=800&h=600';
+
 // Let's import the specific images generated in our turn
-// Path 1: /src/assets/images/hero_sound_system_1782724140150.jpg
-// Path 2: /src/assets/images/event_sound_setup_1782724157516.jpg
 const PORTFOLIO_ITEMS: PortfolioItem[] = [
   {
     id: 'p_1',
     title: 'Gala Corporate Gathering PT Astra',
     category: 'Corporate',
     scale: '3.000 Watt System',
-    image: '/src/assets/images/event_sound_setup_1782724157516.jpg', // Generated stage image!
+    image: eventSoundSetup, // Imported locally!
     description: 'Penyediaan sound system prima untuk seminar nasional & makan malam direksi di Ballroom bintang lima, lengkap dengan wireless monitor.'
   },
   {
@@ -19,7 +20,7 @@ const PORTFOLIO_ITEMS: PortfolioItem[] = [
     title: 'Concert Gear Setup & Tuning',
     category: 'Konser',
     scale: '10.000 Watt Line Array',
-    image: '/src/assets/images/hero_sound_system_1782724140150.jpg', // Generated premium setup image!
+    image: heroSoundSystem, // Imported locally!
     description: 'Penyediaan line array gantung kelas dunia, subwoofer ground stack, dan digital mixer FOH untuk konser musik outdoor band lokal.'
   },
   {

@@ -31,6 +31,8 @@ import Portfolio from './components/Portfolio';
 import Testimonials from './components/Testimonials';
 import FAQ from './components/FAQ';
 
+const heroSoundSystem = 'https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&q=80&w=1200&h=675';
+
 export default function App() {
   const [activeSection, setActiveSection] = useState('hero');
 
@@ -144,7 +146,7 @@ export default function App() {
               </div>
               
               <img
-                src="/src/assets/images/hero_sound_system_1782724140150.jpg"
+                src={heroSoundSystem}
                 alt="Professional Sound System Rental Equipment"
                 referrerPolicy="no-referrer"
                 className="w-full rounded-2xl border-2 border-slate-800 object-cover aspect-[16/9] shadow-inner"
